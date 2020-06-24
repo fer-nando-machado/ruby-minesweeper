@@ -11,4 +11,4 @@ Execute all available tests.
 
 ## License
 
-2018 [MIT License](LICENSE)
+2018 [MIT License](LICENSE).
