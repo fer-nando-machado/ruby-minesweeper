@@ -289,6 +289,7 @@ if __FILE__ == $0
   print_format = {clear_cell: '_', unknown_cell: '?'}
 
   printer = PrettyPrinter.new(print_format)
+  # printer = SimplePrinter.new
 
   puts "Game Start"
   printer.print(game.board_state)
@@ -306,7 +307,7 @@ if __FILE__ == $0
     puts "You won! Congratulations! :)"
   else
     puts "You lost! Here's where the mines were located:"
-    PrettyPrinter.new(print_format).print(game.board_state(xray: true))
+    printer.print(game.board_state(xray: true))
   end
 
 end
