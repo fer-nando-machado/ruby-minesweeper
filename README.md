@@ -11,7 +11,7 @@ Executa todos os testes disponíveis.
 
 ## Problema
 
-### CAMPO MINADO
+### Campo Minado
 
 > Sua empresa está criando um jogo de campo minado (*minesweeper*), e precisa da sua ajuda para construir a engine em **Ruby** que gerencia o estado do jogo e as jogadas. O jogo será lançado em vários dispositivos, e cada um deles será responsável pelo tratamento de input e output para o usuário. Sua engine deve fornecer uma interface de métodos que podem ser chamados pelo cliente para interagir com o jogo: clicar em uma célula, saber o status do tabuleiro, saber se o jogo já acabou etc. Usamos a terminologia "clicar" para traçar uma analogia com uma jogada de escolher uma célula no campo minado. Clicar, literalmente, não faz parte deste exercício; não é necessária uma interface gráfica.
 
